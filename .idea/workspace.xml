@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08665a08-b774-4090-9c43-fafce853e795" name="Default Changelist" comment="" />
+    <list default="true" id="08665a08-b774-4090-9c43-fafce853e795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1itowgMtzBWwxOVA9XpkOZFR2Uj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -27,11 +37,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602736488717</updated>
-      <workItem from="1602736490726" duration="1086000" />
+      <workItem from="1602736490726" duration="4611000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1203" y="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602738010586">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1203" y="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1602738010586" />
+    <state x="1065" y="174" key="CommitChangelistDialog2" timestamp="1602750349269">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1065" y="174" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1602750349269" />
+    <state x="1032" y="313" key="Vcs.Push.Dialog.v2" timestamp="1602750182115">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1032" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1602750182115" />
+    <state x="1103" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602748832664">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1103" y="259" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1602748832664" />
   </component>
 </project>
