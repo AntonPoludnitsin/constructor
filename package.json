@@ -1,0 +1,26 @@
+{
+  "name": "constructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scripts": {
+      "dev": "parcel <your entry file>",
+      "build": "parcel build <your entry file>"
+    },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonPoludnitsin/constructor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonPoludnitsin/constructor/issues"
+  },
+  "homepage": "https://github.com/AntonPoludnitsin/constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
