@@ -1,5 +1,10 @@
 import image from './assets/image.png'
-import { Block } from "./classes/blocks";
+import {
+  ColumnsBlock,
+  ImageBlock,
+  TextBlock,
+  TitleBlock
+} from "./classes/blocks";
 
 const text = `
 Крутые видео и уроки по JavaScript тут: 
@@ -16,7 +21,7 @@ const columnValue = [
 ]
 
 export const model = [
-  new Block('title', 'Конструктор сайтов на чистом JS', {
+  new TitleBlock('Конструктор сайтов на чистом JS', {
     tag: "h2",
     styles: {
       background: `linear-gradient(to right, #ff0099, #493240)`,
@@ -26,14 +31,14 @@ export const model = [
     }
   })
   ,
-  new Block('text', text, {
+  new TextBlock(text, {
     styles: {
       background: 'linear-gradient(to left, #f2994a, #f2c94c)',
       padding: '1rem',
       'font-weight': 'bold'
     }
   }),
-  new Block('columns', columnValue, {
+  new ColumnsBlock(columnValue, {
     styles: {
       background: 'linear-gradient(to bottom, #8e2de2, #4a00e0)',
       padding: '2rem',
@@ -41,7 +46,7 @@ export const model = [
       'font-weight': 'bold'
     }
   }),
-  new Block('image', image, {
+  new ImageBlock(image, {
     styles: {
       padding: '2rem 0',
       display: 'flex',
