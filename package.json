@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "parcel ./src/index.html -p 1200 --open",
-    "build": "parcel build <your entry file>"
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
