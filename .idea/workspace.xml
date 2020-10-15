@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08665a08-b774-4090-9c43-fafce853e795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\Constructor\src\styles" />
+      <recent name="E:\Work\Constructor\src" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -38,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602736488717</updated>
       <workItem from="1602736490726" duration="6263000" />
-      <workItem from="1602752028044" duration="49000" />
+      <workItem from="1602752028044" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="перенесли верстку из файла index.html в index.js">
       <created>1602750402727</created>
@@ -47,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602750402727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Разбили вставку HTML по функциям">
+      <created>1602752217795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602752217795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,25 +85,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="перенесли верстку из файла index.html в index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="перенесли верстку из файла index.html в index.js" />
+    <MESSAGE value="Разбили вставку HTML по функциям" />
+    <option name="LAST_COMMIT_MESSAGE" value="Разбили вставку HTML по функциям" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1203" y="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602738010586">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1203" y="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1602738010586" />
-    <state x="1065" y="174" key="CommitChangelistDialog2" timestamp="1602750402101">
+    <state x="1065" y="174" key="CommitChangelistDialog2" timestamp="1602752217055">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="1065" y="174" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1602750402101" />
+    <state x="1065" y="174" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1602752217055" />
     <state x="1052" y="100" width="776" height="960" key="DiffContextDialog" timestamp="1602750447573">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1052" y="100" width="776" height="960" key="DiffContextDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1602750447573" />
-    <state x="1032" y="313" key="Vcs.Push.Dialog.v2" timestamp="1602750409452">
+    <state x="1032" y="313" key="Vcs.Push.Dialog.v2" timestamp="1602752223236">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="1032" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1602750409452" />
+    <state x="1032" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1602752223236" />
     <state x="1096" y="272" key="run.anything.popup" timestamp="1602751643619">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
