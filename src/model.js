@@ -27,9 +27,11 @@ export const model = [
     type: "text",
     value: text,
     options: {
-      background: 'linear-gradient(to left, #f2994a, #f2c94c)',
-      padding: '1rem',
-      'font-weight': 'bold'
+      styles: {
+        background: 'linear-gradient(to left, #f2994a, #f2c94c)',
+        padding: '1rem',
+        'font-weight': 'bold'
+      }
     }
   },
   {
@@ -56,7 +58,12 @@ export const model = [
         padding: '2rem 0',
         display: 'flex',
         'justify-content': 'center'
-      }
+      },
+      imageStyles: {
+        width: '500px',
+        height: 'auto'
+      },
+      alt: "Это картинка"
     }
   }
 ]

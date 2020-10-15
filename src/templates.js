@@ -8,6 +8,7 @@ function title(block) {
 
 function text(block) {
   const {styles} = block.options
+  console.log(styles)
   const html = `<p>${block.value}</p>`
   return row(col(html), css(styles))
 }
@@ -20,8 +21,8 @@ function columns(block) {
 }
 
 function image(block) {
-  const {styles} = block.options
-  const html = `<img src="${block.value}" />`
+  const {styles, imageStyles: iS, alt = ''} = block.options
+  const html = `<img src="${block.value}" style="${iS}" alt="${alt}" />`
   return row(html, css(styles))
 }
 
